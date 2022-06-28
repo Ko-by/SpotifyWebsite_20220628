@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    color: white;
+}
+nav {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+main {
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-size: 130%;
+    background-position: 30% 30%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.headline {
+    font-size: 156px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 255px;
+    padding-bottom: 40px;
+}
+.headline-first {
+    position: relative;
+    left: -2em;
+}
+.sub-headline {
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+.button-area {
+    text-align: center;
+}
+.button-style {
+    background-color: #1ed760;
+    color: rgb(41, 65, 171);
+    border-radius: 500px;
+    font-weight: 700;
+    border: none;
+    padding: 14px 32px;
+
+}
+.button-style:hover {
+    transform: scale(1.03);
+}
+footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.first-box {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #1ed760;
+}
